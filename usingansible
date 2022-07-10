@@ -1,0 +1,7 @@
+Step 1-From controller we need to to create 2 vm with the help of Terraform ( Infrastructure as a code)
+1 - vm 
+2 - security group (Whitelisted IP)
+3- Key pair
+Step 2 - After creation, we need to controll the remote VM's (ANSIBLE) CMT
+
+
