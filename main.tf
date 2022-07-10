@@ -1,15 +1,7 @@
-terraform {
-  required_providers {
-    aws = {
-      source  = "hashicorp/aws"
-      version = "~> 3.27"
-    }
-  }
+resource "local_file" "foo" {
 
-  required_version = ">= 0.14.9"
-}
+    content  = "foo!"
 
-provider "aws" {
-  profile = "default"
-  region  = "us-east-1"
+    filename = "${path.module}/foo.bar"
+
 }

@@ -1,0 +1,8 @@
+728  vim main.tf
+  729  terraform init
+  730  terraform plan
+  731  vim main.tf
+  732  terraform init
+  733  terraform plan
+  734  terraform apply
+
