@@ -1,0 +1,61 @@
+1216  terraform -v
+ 1217  ll
+ 1218  cd local-tf
+ 1219  ll
+ 1220  cat main.tf
+ 1221  terraform init
+ 1222  terraform plan
+ 1223  terraform validate
+ 1224  terraform fmt 
+ 1225  terraform apply
+ 1226  vim main.tf
+ 1227  terraform apply
+ 1228  cd ..
+ 1229  ll
+ 1230  cd terraform-ansible
+ 1231  git switch main
+ 1232  git add .
+ 1233  git branch -a
+ 1234  git push
+ 1235  git commit -m"pushing"
+ 1236  git push
+ 1237  git branch -a
+ 1238  git switch local-file
+ 1239  ll
+ 1240  git -a
+ 1241  git branch -a
+1241  git branch -a
+ 1242  ll
+ 1243  cat main.tf
+ 1244  switch ansible
+ 1245  git switch anshible
+ 1246  git switch ansible
+ 1247  aws configure
+ 1248  aws s3 ls
+ 1249  terraform plan
+ 1250  terraform init
+ 1251  terraform apply
+ 1252  ll
+ 1253  cd terraform-ansible
+ 1254  ll
+ 1255  terraform apply
+ 1256  ll
+ 1257  cd ,,
+ 1258  cd ..
+ 1259  ll
+ 1260  chmod 400 deployer
+ 1261  ll
+ 1262  ansible all -i'54.159.207.26,' -m ping  -u ec2-user --private-key=./deployer -b
+ 1263  vim inventory
+ 1264  ansible node-1 ping
+ 1265  ansible node-1 -m ping
+ 1266  ll
+ 1267  vim ping.yaml
+ 1268  ansible node-1 -m shell -a"mkdir /opt/test"
+ 1269  ansible node-1 -m shell -a"ls -l /opt/"
+ 1270  ansible node-1 -m shell -a"yum install htop"
+ 1271  ansible node-1 -m shell -a"yum install htop -y"
+ 1272  ansible node1 -m copy -a"src=./deployer.pub dest=/opt"
+ 1273  ansible node-1 -m copy -a"src=./deployer.pub dest=/opt"
+ 1274  histroy
+
